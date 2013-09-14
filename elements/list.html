@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properities -->
+  <meta http-equiv="X-Powered-By" content="DocPad v6.50.0"/>
+  <title>List | Semantic UI</title>
+
+  <meta name="description" content="Semantic empowers designers and developers by creating a shared vocabulary for UI." />
+  <meta name="keywords" content="html5, ui, library, framework, javascript" />
+ <!-- <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,300italic' rel='stylesheet' type='text/css'>
+ -->
+
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/button.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/divider.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/header.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/icons.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/image.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/input.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/label.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/list.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/loader.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/progress.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/segment.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/step.css">
+
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/collections/breadcrumb.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/collections/form.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/collections/grid.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/collections/menu.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/collections/message.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/collections/table.css">
+
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/views/comment.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/views/feed.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/views/item.css">
+
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/carousel.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/dropdown.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/popup.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/reveal.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/sidebar.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/shape.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/tab.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/checkbox.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/dimmer.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/transition.css">
+
+  <link rel="stylesheet" type="text/css" class="ui" href="/overrides/fonts/sketchy.icons.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/library/sidr.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/semantic.css">
+
+  
+  <script src="/javascript/library/jquery.js"></script>
+  <script src="/javascript/library/history.js"></script>
+  <script src="/javascript/library/easing.js"></script>
+  <script src="/javascript/library/ace/ace.js"></script>
+  <script src="/javascript/library/sidr.js"></script>
+  <script src="/javascript/library/waypoints.js"></script>
+
+  <script src="/components/semantic/modules/behavior/api.js"></script>
+  <script src="/components/semantic/modules/behavior/state.js"></script>
+  <script src="/components/semantic/modules/checkbox.js"></script>
+  <script src="/components/semantic/modules/dimmer.js"></script>
+  <script src="/components/semantic/modules/dropdown.js"></script>
+  <script src="/components/semantic/modules/sidebar.js"></script>
+  <script src="/components/semantic/modules/popup.js"></script>
+  <script src="/components/semantic/modules/tab.js"></script>
+  <script src="/components/semantic/modules/transition.js"></script>
+
+  <script src="/javascript/semantic.js"></script>
+
+</head>
+<body id="example" class="list">
+  <div class="ui large vertical inverted labeled icon sidebar menu" id="menu">
+    <div class="item"><a href="/download.html"><i class="inverted circular red upload icon"></i> <b>Download</b></a></div>
+    <div class="item">
+      <a href="/introduction.html">
+        <b>Introduction</b>
+      </a>
+      <div class="menu">
+        
+          <a class="item" href="/introduction/definitions.html">Definitions</a>
+        
+          <a class="item" href="/introduction/types.html">Types</a>
+        
+          <a class="item" href="/introduction/variations.html">Variations</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <a href="/element.html"><b>Elements</b></a>
+      <div class="menu">
+        
+          <a class="item" href="/elements/button.html">Button</a>
+        
+          <a class="item" href="/elements/divider.html">Divider</a>
+        
+          <a class="item" href="/elements/header.html">Header</a>
+        
+          <a class="item" href="/elements/icon.html">Icon</a>
+        
+          <a class="item" href="/elements/image.html">Image</a>
+        
+          <a class="item" href="/elements/input.html">Input</a>
+        
+          <a class="item" href="/elements/label.html">Label</a>
+        
+          <a class="item" href="/elements/loader.html">Loader</a>
+        
+          <a class="item" href="/elements/progress.html">Progress</a>
+        
+          <a class="item" href="/elements/segment.html">Segment</a>
+        
+          <a class="item" href="/elements/step.html">Step</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <a href="/collection.html"><b>Collections</b></a>
+      <div class="menu">
+        
+          <a class="item" href="/collections/breadcrumb.html">Breadcrumb</a>
+        
+          <a class="item" href="/collections/form.html">Form</a>
+        
+          <a class="item" href="/collections/grid.html">Grid</a>
+        
+          <a class="active item" href="/elements/list.html">List</a>
+        
+          <a class="item" href="/collections/menu.html">Menu</a>
+        
+          <a class="item" href="/collections/message.html">Message</a>
+        
+          <a class="item" href="/collections/table.html">Table</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <a href="/view.html"><b>Views</b></a>
+      <div class="menu">
+        
+          <a class="item" href="/views/comment.html">Comment</a>
+        
+          <a class="item" href="/views/feed.html">Feed</a>
+        
+          <a class="item" href="/views/items.html">Item</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <a href="/module.html"><b>Modules</b></a>
+      <div class="menu">
+        
+          <a class="item" href="/modules/accordion.html">Accordion</a>
+        
+          <a class="item" href="/modules/carousel.html">Carousel</a>
+        
+          <a class="item" href="/modules/checkbox.html">Checkbox</a>
+        
+          <a class="item" href="/modules/dimmer.html">Dimmer</a>
+        
+          <a class="item" href="/modules/dropdown.html">Dropdown</a>
+        
+          <a class="item" href="/modules/popup.html">Popup</a>
+        
+          <a class="item" href="/modules/reveal.html">Reveal</a>
+        
+          <a class="item" href="/modules/shape.html">Shape</a>
+        
+          <a class="item" href="/modules/sidebar.html">Sidebar</a>
+        
+          <a class="item" href="/modules/transition.html">Transition</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <a href="/module.html"><b>Behavior</b></a>
+      <div class="menu">
+        
+          <a class="item" href="/modules/form.html">Validate Form</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <b>Style Guide</b>
+      <div class="menu">
+        
+          <a class="item" href="/guide/cssguide.html">CSS</a>
+        
+          <a class="item" href="/guide/javascriptguide.html">Javascript</a>
+        
+          <a class="item" href="/guide/styleguide.html">Language</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <b>Specification</b>
+      <div class="menu">
+        
+          <a class="item" href="/specification/getting-started.html"> Getting Started</a>
+        
+          <a class="item" href="/specification/authoring.html">Authoring UI</a>
+        
+          <a class="item" href="/specification/spec.html">Spec Files</a>
+        
+          <a class="item" href="/specification/downloading.html">Using UI</a>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="ui fixed transparent inverted main menu">
+    <div class="container">
+      <a class="launch item"><i class="icon list layout"></i> Content</a>
+      <div class="title item">
+        <b>UI Collection:</b> List
+      </div>
+      <div class="icon previous link item">
+        
+        <a href="/collections/grid.html"><i class="left arrow icon"></i></a>
+        
+      </div>
+      <div class="section ui dropdown item">
+        <a class="count">4 of 7</a>
+        <div class="menu">
+          
+            <div class="item">
+              <a href="/collections/breadcrumb.html">1. Breadcrumb</a>
+            </div>
+          
+            <div class="item">
+              <a href="/collections/form.html">2. Form</a>
+            </div>
+          
+            <div class="item">
+              <a href="/collections/grid.html">3. Grid</a>
+            </div>
+          
+            <div class="active item">
+              <a href="/elements/list.html">4. List</a>
+            </div>
+          
+            <div class="item">
+              <a href="/collections/menu.html">5. Menu</a>
+            </div>
+          
+            <div class="item">
+              <a href="/collections/message.html">6. Message</a>
+            </div>
+          
+            <div class="item">
+              <a href="/collections/table.html">7. Table</a>
+            </div>
+          
+        </div>
+      </div>
+      <div class="icon next link item">
+        
+        <a href="/collections/menu.html"><i class="right arrow icon"></i></a>
+        
+      </div>
+      <div class="right menu">
+        
+        <a class="popup designer icon item" title="Designer Mode">
+          <i class="icon paint"></i>
+        </a>
+        <a class="popup developer icon item" title="Developer Mode">
+          <i class="icon terminal"></i>
+        </a>
+        
+        <a class="popup icon item" title="View project on Github" href="https://github.com/quirkyinc/semantic">
+          <i class="icon github"></i>
+        </a>
+        <!--
+        <div class="ui simple dropdown item">
+          <i class="icon tint"></i> Theme
+          <div class="theme menu">
+            <div class="active item" data-theme="flat">Flat</div>
+            <div class="item" data-theme="shaded">Shaded</div>
+            <div class="item" data-theme="classic">Classic</div>
+          </div>
+        </div>
+        !-->
+      </div>
+    </div>
+  </div>
+    <div class="ui black huge launch right attached button">
+      <i class="icon list layout"></i>
+      <span class="text">Menu</span>
+    </div>
+  <div class="segment">
+  <div class="container">
+    <h1 class="ui dividing header">
+      List
+    </h1>
+    <p>A list is a group of related items ordered consecutively.</p>
+  </div>
+</div>
+<div class="main container">
+
+  <div class="peek">
+    <div class="ui vertical pointing secondary menu">
+      <a class="active item">Types</a>
+      <a class="item">Content</a>
+      <a class="item">States</a>
+      <a class="item">Variations</a>
+    </div>
+  </div>
+
+  <h2 class="ui dividing header">Standard</h2>
+  <div class="example">
+    <h4 class="ui header">List</h4>
+    <p>A standard list</p>
+    <div class="ui list">
+      <div class="item">New York City</div>
+      <div class="item">Chicago</div>
+      <div class="item">Los Angeles</div>
+      <div class="item">San Francisco</div>
+    </div>
+  </div>
+  <div class="another example">
+    <div class="ignored ui info message">For convenience, a list can also use ul and li tags to specify lists and list items.</div>
+    <ul class="ui list">
+      <li>New York City</li>
+      <li>Chicago</li>
+      <li>Los Angeles</li>
+      <li>San Francisco</li>
+    </ul>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Horizontal List</h4>
+    <p>A list can be formatted horizontally</p>
+    <div class="ui horizontal list">
+      <div class="item">
+        Apples
+      </div>
+      <div class="item">
+        Pears
+      </div>
+      <div class="item">
+        Oranges
+      </div>
+      <div class="item">
+        Soursop
+      </div>
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Icon List</h4>
+    <p>A list can be formatted so that each item has an icon</p>
+    <div class="ui list">
+      <a class="item">
+        <i class="right doc icon"></i>
+        What is a FAQ?
+      </a>
+      <a class="item">
+        <i class="right doc icon"></i>
+        How does one go about reading answers to questions in a FAQ
+      </a>
+      <a class="item">
+        <i class="right docs icon"></i>
+        How do you close a web browser?
+      </a>
+      <a class="item">
+        <i class="right doc icon"></i>
+        What is the most popular FAQ question?
+      </a>
+    </div>
+  </div>
+
+  <h2 class="ui dividing header">Content</h2>
+
+  <div class="example">
+    <h4 class="ui header">Link</h4>
+    <p>A list can contain items that link</p>
+    <div class="ui list">
+      <a class="item">What is a FAQ?</a>
+      <a class="item">How does one go about reading answers to questions in a FAQ</a>
+      <a class="item">How do you close a web browser?</a>
+      <a class="item">What is the most popular FAQ question?</a>
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Header</h4>
+    <p>A list item can contain a header</p>
+    <div class="ui ordered list">
+      <div class="item">
+        <div class="header">New York City</div>
+        A lovely city
+      </div>
+      <div class="item">
+        <div class="header">Chicago</div>
+        Also quite a lovely city
+      </div>
+      <div class="item">
+        <div class="header">Los Angeles</div>
+        Sometimes can be a lovely city
+      </div>
+      <div class="item">
+        <div class="header">San Francisco</div>
+        What a lovely city
+      </div>
+    </div>
+  </div>
+
+  <h2 class="ui dividing header">States</h2>
+
+
+  <h2 class="ui dividing header">Variations</h2>
+
+  <div class="example">
+    <h4 class="ui header">Bulleted</h4>
+    <p>A list can mark items with a bullet</p>
+    <div class="ui bulleted list">
+      <div class="item">New York City</div>
+      <div class="item">Chicago</div>
+      <div class="item">Los Angeles</div>
+      <div class="item">San Francisco</div>
+    </div>
+  </div>
+  <div class="another example">
+    <div class="ui horizontal bulleted list">
+      <div class="item">
+        Apples
+      </div>
+      <div class="item">
+        Pears
+      </div>
+      <div class="item">
+        Oranges
+      </div>
+      <div class="item">
+        Soursop
+      </div>
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Ordered</h4>
+    <p>A list can be ordered numerically</p>
+    <div class="ui ordered list">
+      <div class="item">New York City</div>
+      <div class="item">Chicago</div>
+      <div class="item">Los Angeles</div>
+      <div class="item">San Francisco</div>
+      <div class="item">Detroit</div>
+      <div class="item">Richmond</div>
+      <div class="item">Nashville</div>
+      <div class="item">St Louis</div>
+      <div class="item">Kansas City</div>
+      <div class="item">Oakland</div>
+      <div class="item">Virginia Beach</div>
+    </div>
+  </div>
+  <div class="another example">
+    <div class="ui ordered horizontal list">
+      <div class="item">New York City</div>
+      <div class="item">Chicago</div>
+      <div class="item">Los Angeles</div>
+      <div class="item">San Francisco</div>
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Divided</h4>
+    <p>A list can show divisions between content</p>
+    <div class="ui divided list">
+      <div class="item">New York City</div>
+      <div class="item">Chicago</div>
+      <div class="item">Los Angeles</div>
+      <div class="item">San Francisco</div>
+    </div>
+  </div>
+  <div class="another example">
+    <div class="ui divided horizontal list">
+      <div class="item">About Us</div>
+      <div class="item">Contact</div>
+      <div class="item">Support</div>
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Celled</h4>
+    <p>A list can divide its items into cells</p>
+    <div class="ui celled list">
+      <div class="item">New York City</div>
+      <div class="item">Chicago</div>
+      <div class="item">Los Angeles</div>
+      <div class="item">San Francisco</div>
+    </div>
+  </div>
+  <div class="another example">
+    <div class="ui celled horizontal list">
+      <div class="item">About Us</div>
+      <div class="item">Contact</div>
+      <div class="item">Support</div>
+    </div>
+  </div>
+
+
+
+</div>
+</body>
+
+</html>

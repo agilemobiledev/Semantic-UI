@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<head>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properities -->
+  <meta name="generator" content="DocPad v6.52.1" />
+  <title>Reveal | Semantic UI</title>
+
+  <meta name="description" content="Semantic empowers designers and developers by creating a shared vocabulary for UI." />
+  <meta name="keywords" content="html5, ui, library, framework, javascript" />
+
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/button.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/divider.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/header.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/icon.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/image.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/input.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/label.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/loader.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/progress.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/segment.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/elements/step.css">
+
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/collections/breadcrumb.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/collections/form.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/collections/grid.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/collections/menu.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/collections/message.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/collections/table.css">
+
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/views/comment.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/views/list.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/views/feed.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/views/item.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/views/statistic.css">
+
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/carousel.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/modal.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/dropdown.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/popup.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/reveal.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/rating.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/sidebar.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/shape.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/tab.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/checkbox.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/dimmer.css">
+  <link rel="stylesheet" type="text/css" class="ui" href="/components/semantic/modules/transition.css">
+
+  <link rel="stylesheet" type="text/css" class="ui" href="/overrides/fonts/sketchy.icons.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/semantic.css">
+<!--
+  <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+ -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
+
+  <script src="/javascript/library/jquery.js"></script>
+  <script src="/javascript/library/history.js"></script>
+  <script src="/javascript/library/easing.js"></script>
+  <script src="/javascript/library/ace/ace.js"></script>
+  <script src="/javascript/library/waypoints.js"></script>
+
+  <script src="/components/semantic/modules/behavior/api.js"></script>
+  <script src="/components/semantic/modules/behavior/state.js"></script>
+  <script src="/components/semantic/modules/checkbox.js"></script>
+  <script src="/components/semantic/modules/dimmer.js"></script>
+  <script src="/components/semantic/modules/dropdown.js"></script>
+  <script src="/components/semantic/modules/modal.js"></script>
+  <script src="/components/semantic/modules/popup.js"></script>
+  <script src="/components/semantic/modules/rating.js"></script>
+  <script src="/components/semantic/modules/sidebar.js"></script>
+  <script src="/components/semantic/modules/tab.js"></script>
+  <script src="/components/semantic/modules/transition.js"></script>
+
+  <script src="/javascript/semantic.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44039803-1', 'semantic-ui.com');
+  ga('send', 'pageview');
+
+  </script>
+</head>
+<body id="example" class="reveal">
+  <div class="ui large vertical inverted labeled icon sidebar menu" id="menu">
+    <a class="item" href="/download.html">
+      <i class="inverted circular red upload icon"></i> <b>Download</b>
+    </a>
+    <div class="item">
+      <a href="/introduction.html">
+        <b>Introduction</b>
+      </a>
+      <div class="menu">
+        
+          <a class="item" href="/introduction/definitions.html">Definitions</a>
+        
+          <a class="item" href="/introduction/getting-started.html">Getting Started</a>
+        
+          <a class="item" href="/introduction/types.html">Types</a>
+        
+          <a class="item" href="/introduction/variations.html">Variations</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <a href="/element.html"><b>Elements</b></a>
+      <div class="menu">
+        
+          <a class="item" href="/elements/button.html">Button</a>
+        
+          <a class="item" href="/elements/divider.html">Divider</a>
+        
+          <a class="item" href="/elements/header.html">Header</a>
+        
+          <a class="item" href="/elements/icon.html">Icon</a>
+        
+          <a class="item" href="/elements/image.html">Image</a>
+        
+          <a class="item" href="/elements/input.html">Input</a>
+        
+          <a class="item" href="/elements/label.html">Label</a>
+        
+          <a class="item" href="/elements/loader.html">Loader</a>
+        
+          <a class="item" href="/elements/progress.html">Progress</a>
+        
+          <a class="item" href="/elements/segment.html">Segment</a>
+        
+          <a class="item" href="/elements/step.html">Step</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <a href="/collection.html"><b>Collections</b></a>
+      <div class="menu">
+        
+          <a class="item" href="/collections/breadcrumb.html">Breadcrumb</a>
+        
+          <a class="item" href="/collections/form.html">Form</a>
+        
+          <a class="item" href="/collections/grid.html">Grid</a>
+        
+          <a class="item" href="/collections/menu.html">Menu</a>
+        
+          <a class="item" href="/collections/message.html">Message</a>
+        
+          <a class="item" href="/collections/table.html">Table</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <a href="/view.html"><b>Views</b></a>
+      <div class="menu">
+        
+          <a class="item" href="/views/comment.html">Comment</a>
+        
+          <a class="item" href="/views/feed.html">Feed</a>
+        
+          <a class="item" href="/views/items.html">Item</a>
+        
+          <a class="item" href="/views/list.html">List</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <a href="/module.html"><b>Modules</b></a>
+      <div class="menu">
+        
+          <a class="item" href="/modules/accordion.html">Accordion</a>
+        
+          <a class="item" href="/modules/carousel.html">Carousel</a>
+        
+          <a class="item" href="/modules/chat.html">Chatroom</a>
+        
+          <a class="item" href="/modules/checkbox.html">Checkbox</a>
+        
+          <a class="item" href="/modules/dimmer.html">Dimmer</a>
+        
+          <a class="item" href="/modules/dropdown.html">Dropdown</a>
+        
+          <a class="item" href="/modules/modal.html">Modal</a>
+        
+          <a class="item" href="/modules/popup.html">Popup</a>
+        
+          <a class="item" href="/modules/rating.html">Rating</a>
+        
+          <a class="active item" href="/modules/reveal.html">Reveal</a>
+        
+          <a class="item" href="/modules/shape.html">Shape</a>
+        
+          <a class="item" href="/modules/sidebar.html">Sidebar</a>
+        
+          <a class="item" href="/modules/transition.html">Transition</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <a href="/module.html"><b>Behavior</b></a>
+      <div class="menu">
+        
+          <a class="item" href="/modules/form.html">Validate Form</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <b>Style Guide</b>
+      <div class="menu">
+        
+          <a class="item" href="/guide/cssguide.html">CSS</a>
+        
+          <a class="item" href="/guide/javascriptguide.html">Javascript</a>
+        
+          <a class="item" href="/guide/styleguide.html">Language</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <b>Specification</b>
+      <div class="menu">
+        
+          <a class="item" href="/specification/getting-started.html"> Getting Started</a>
+        
+          <a class="item" href="/specification/authoring.html">Authoring UI</a>
+        
+          <a class="item" href="/specification/spec.html">Spec Files</a>
+        
+          <a class="item" href="/specification/downloading.html">Using UI</a>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="ui fixed transparent inverted main menu">
+    <div class="container">
+      <a class="launch item"><i class="icon list layout"></i> Content</a>
+      <div class="title item">
+        <b>UI Module:</b> Reveal
+      </div>
+      <div class="icon previous link item">
+        
+        <a href="/modules/rating.html"><i class="left arrow icon"></i></a>
+        
+      </div>
+      <div class="section ui dropdown link item">
+        <span class="count">10 of 13</span>
+        <div class="menu">
+          
+            <div class="item">
+              <a href="/modules/accordion.html">1. Accordion</a>
+            </div>
+          
+            <div class="item">
+              <a href="/modules/carousel.html">2. Carousel</a>
+            </div>
+          
+            <div class="item">
+              <a href="/modules/chat.html">3. Chatroom</a>
+            </div>
+          
+            <div class="item">
+              <a href="/modules/checkbox.html">4. Checkbox</a>
+            </div>
+          
+            <div class="item">
+              <a href="/modules/dimmer.html">5. Dimmer</a>
+            </div>
+          
+            <div class="item">
+              <a href="/modules/dropdown.html">6. Dropdown</a>
+            </div>
+          
+            <div class="item">
+              <a href="/modules/modal.html">7. Modal</a>
+            </div>
+          
+            <div class="item">
+              <a href="/modules/popup.html">8. Popup</a>
+            </div>
+          
+            <div class="item">
+              <a href="/modules/rating.html">9. Rating</a>
+            </div>
+          
+            <div class="active item">
+              <a href="/modules/reveal.html">10. Reveal</a>
+            </div>
+          
+            <div class="item">
+              <a href="/modules/shape.html">11. Shape</a>
+            </div>
+          
+            <div class="item">
+              <a href="/modules/sidebar.html">12. Sidebar</a>
+            </div>
+          
+            <div class="item">
+              <a href="/modules/transition.html">13. Transition</a>
+            </div>
+          
+        </div>
+      </div>
+      <div class="icon next link item">
+        
+        <a href="/modules/shape.html"><i class="right arrow icon"></i></a>
+        
+      </div>
+      <div class="right menu">
+        
+        <a class="popup overview icon item" title="Toggle Definition">
+          <i class="book icon"></i>
+        </a>
+        <a class="popup designer icon item" title="Designer Mode">
+          <i class="paint icon"></i>
+        </a>
+        <a class="popup developer icon item" title="Developer Mode">
+          <i class="terminal icon"></i>
+        </a>
+        
+        <a class="popup icon item" title="View project on Github" href="https://github.com/quirkyinc/semantic">
+          <i class="icon github"></i>
+        </a>
+        <!--
+        <div class="ui simple dropdown item">
+          <i class="icon tint"></i> Theme
+          <div class="theme menu">
+            <div class="active item" data-theme="flat">Flat</div>
+            <div class="item" data-theme="shaded">Shaded</div>
+            <div class="item" data-theme="classic">Classic</div>
+          </div>
+        </div>
+        !-->
+      </div>
+    </div>
+  </div>
+    <div class="ui black huge launch right attached button">
+      <i class="icon list layout"></i>
+      <span class="text">Menu</span>
+    </div>
+  <div class="segment">
+  <div class="container">
+    <h1 class="ui dividing header">Reveal</h1>
+    <p>A reveal is an element that shows different content below it when hovered</p>
+  </div>
+</div>
+<div class="main container">
+
+  <div class="peek">
+    <div class="ui vertical pointing secondary menu">
+      <a class="active item">Types</a>
+      <a class="item">Types</a>
+      <a class="item">Variations</a>
+      <a class="item">States</a>
+    </div>
+  </div>
+
+  <h2 class="ui dividing header">Types</h2>
+
+  <div class="example">
+    <h4 class="ui header">Reveal</h4>
+    <p>A standard reveal has no special formatting</p>
+    <div class="ui ignored red message">
+      A reveal will take no action unless a type of reveal is specified.
+    </div>
+    <div class="ui circular reveal">
+      <img class="visible content" src="/images/demo/stickfigure.jpg">
+      <img class="hidden content" src="/images/demo/photo2.jpg">
+    </div>
+  </div>
+  <div class="example">
+    <h4 class="ui header">Fade</h4>
+    <p>An element can disappear to reveal content below</p>
+    <div class="ui fade reveal">
+      <img class="visible content" src="/images/demo/invention.jpg">
+      <img class="hidden content" src="/images/demo/title.png">
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Move</h4>
+    <p>An element can move in a direction to reveal content</p>
+    <div class="ui move reveal">
+      <img class="visible content" src="/images/demo/invention.jpg">
+      <img class="hidden content" src="/images/demo/title.png">
+    </div>
+  </div>
+  <div class="another example">
+    <div class="ui move right reveal">
+      <img class="visible content" src="/images/demo/invention.jpg">
+      <img class="hidden content" src="/images/demo/title.png">
+    </div>
+  </div>
+
+  <div class="another example">
+    <div class="ui move up reveal">
+      <img class="visible content" src="/images/demo/invention.jpg">
+      <img class="hidden content" src="/images/demo/title.png">
+    </div>
+  </div>
+
+  <div class="another example">
+    <div class="ui move down reveal">
+      <img class="visible content" src="/images/demo/invention.jpg">
+      <img class="hidden content" src="/images/demo/title.png">
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Rotate</h4>
+    <p>An element can rotate to reveal content below</p>
+    <div class="ui circular rotate reveal image">
+      <img class="visible content" src="/images/demo/stickfigure.jpg">
+      <img class="hidden content" src="/images/demo/photo2.jpg">
+    </div>
+  </div>
+  <div class="another example">
+    <div class="ui circular rotate left reveal image">
+      <img class="visible content" src="/images/demo/stickfigure.jpg">
+      <img class="hidden content" src="/images/demo/photo2.jpg">
+    </div>
+  </div>
+
+  <h2 class="ui dividing header">Variations</h2>
+
+  <div class="example">
+    <h4 class="ui header">Masked</h4>
+    <p>An element can mask its content so that an element does not escape its parent</p>
+    <div class="ui masked move reveal">
+      <img class="visible content" src="/images/demo/invention.jpg">
+      <img class="hidden content" src="/images/demo/title.png">
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Instant</h4>
+    <p>An element can show its content without delay</p>
+    <div class="ui instant masked move reveal">
+      <img class="visible content" src="/images/demo/invention.jpg">
+      <img class="hidden content" src="/images/demo/title.png">
+    </div>
+  </div>
+
+
+  <h2 class="ui dividing header">States</h2>
+
+  <div class="example">
+    <h4 class="ui header">Disabled</h4>
+    <p>A disabled reveal will not animate when hovered</p>
+    <div class="ui circular disabled move reveal">
+      <img class="visible content" src="/images/demo/stickfigure.jpg">
+      <img class="hidden content" src="/images/demo/photo2.jpg">
+    </div>
+  </div>
+
+
+
+</div>
+</body>
+
+</html>
